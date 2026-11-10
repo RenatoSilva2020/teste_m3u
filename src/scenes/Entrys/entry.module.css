@@ -1,0 +1,38 @@
+.container {
+    width: 400px;
+    height: 140px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    transition: 0.2s !important;
+    padding: 10px;
+}
+
+.rowContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.fileContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.container:hover {
+    background-color: lightgrey;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.imageContainer {
+    width: 84px;
+    align-self: center;
+    flex: 1;
+    display: flex;
+    min-height: 0;
+}
